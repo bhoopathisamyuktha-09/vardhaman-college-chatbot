@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vardhaman College Chatbot - Get instant information about admissions, courses, facilities, and more">
+    <meta name="theme-color" content="#003366">
+    <title>Vardhaman College Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="header-title">
+                    <img src="logo.jpg" alt="Vardhaman College Logo" class="college-logo">
+                    <h1>Vardhaman College Chatbot</h1>
+                </div>
+                <p class="subtitle">Your virtual assistant for college information</p>
+            </div>
+        </header>
+        <main class="chatbox">
+            <div class="messages" id="messages" role="log" aria-live="polite"></div>
+            <div class="options-container" id="optionsContainer" role="group" aria-label="Chat options">
+                <button class="option-btn" data-option="admissions" aria-label="Admissions information">
+                    <span class="btn-icon">🎓</span>
+                    <span class="btn-text">Admissions</span>
+                </button>
+                <button class="option-btn" data-option="courses" aria-label="Course information">
+                    <span class="btn-icon">📚</span>
+                    <span class="btn-text">Courses</span>
+                </button>
+                <button class="option-btn" data-option="campus" aria-label="Campus life information">
+                    <span class="btn-icon">🏫</span>
+                    <span class="btn-text">Campus Life</span>
+                </button>
+                <button class="option-btn" data-option="facilities" aria-label="College facilities">
+                    <span class="btn-icon">🏢</span>
+                    <span class="btn-text">Facilities</span>
+                </button>
+                <button class="option-btn" data-option="epics" aria-label="EPICS program">
+                    <span class="btn-icon">⚡</span>
+                    <span class="btn-text">EPICS</span>
+                </button>
+                <button class="option-btn" data-option="scholarships" aria-label="Scholarship information">
+                    <span class="btn-icon">💰</span>
+                    <span class="btn-text">Scholarships</span>
+                </button>
+                <button class="option-btn" data-option="placements" aria-label="Placement information">
+                    <span class="btn-icon">💼</span>
+                    <span class="btn-text">Placements</span>
+                </button>
+                <button class="option-btn" data-option="startups" aria-label="Startup information">
+                    <span class="btn-icon">🚀</span>
+                    <span class="btn-text">Startups</span>
+                </button>
+                <button class="option-btn" data-option="international" aria-label="International students information">
+                    <span class="btn-icon">🌍</span>
+                    <span class="btn-text">International Students</span>
+                </button>
+                <button class="option-btn" data-option="research" aria-label="Research information">
+                    <span class="btn-icon">🔬</span>
+                    <span class="btn-text">Research</span>
+                </button>
+                <button class="option-btn" data-option="fees" aria-label="Fee structure">
+                    <span class="btn-icon">💵</span>
+                    <span class="btn-text">Fee Structure</span>
+                </button>
+                <button class="option-btn" data-option="library" aria-label="Library information">
+                    <span class="btn-icon">📖</span>
+                    <span class="btn-text">Library</span>
+                </button>
+                <button class="option-btn" data-option="hostel" aria-label="Hostel information">
+                    <span class="btn-icon">🏠</span>
+                    <span class="btn-text">Hostel</span>
+                </button>
+                <button class="option-btn" data-option="transport" aria-label="Transport information">
+                    <span class="btn-icon">🚌</span>
+                    <span class="btn-text">Transport</span>
+                </button>
+                <button class="option-btn" data-option="events" aria-label="Events information">
+                    <span class="btn-icon">🎉</span>
+                    <span class="btn-text">Events</span>
+                </button>
+                <button class="option-btn" data-option="campus-radio" aria-label="Campus Radio information">
+                    <span class="btn-icon">📻</span>
+                    <span class="btn-text">Campus Radio</span>
+                </button>
+                <button class="option-btn" data-option="alumni" aria-label="Alumni information">
+                    <span class="btn-icon">👥</span>
+                    <span class="btn-text">Alumni</span>
+                </button>
+                <button class="option-btn" data-option="contact" aria-label="Contact information">
+                    <span class="btn-icon">📞</span>
+                    <span class="btn-text">Contact Us</span>
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
